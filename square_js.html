@@ -1,20 +1,17 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Square function</title>
-</head>
-<body>
-<script type="text/javascript">
-	function square(var x)
-	{
-		return x*x;
-	}
-	document.write("<h1>square of numbers from 1 to 50</h1>");
-	for(var x=1;x<=50;x++)
-	{
-		document.write("<p>the square of"+ x +"is" square(x)+"</p>");
-		square(x);
-	}
-</script>
-</body>
+    <head></head>
+    <body>
+        <script>
+            function square()
+            {
+                var temp="squares:<br>";
+                for (var i=1;i<=50;i++)
+                {
+                    temp+=i+" - "+(i*i)+"<br>";
+                }
+                document.write(temp);
+            }
+            square();
+        </script>
+    </body>
 </html>
