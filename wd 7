@@ -12,7 +12,7 @@ snum= prompt("enter second number");
 num1=parseInt(fnum);
 num2=parseInt(snum);
 sum=num1+num2;
-document.writeln("<h1> sum is + sum + </h1>");
+document.writeln("<h1> sum is" + sum + "</h1>");
 </script>
 </head>
 <body></body>
